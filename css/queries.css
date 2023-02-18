@@ -180,6 +180,11 @@
   .grid--2--cols {
     grid-template-columns: 1fr;
   }
+  
+  .heading-primary,
+  .heading-secondary {
+    font-size: var(--36px);
+  }
 
   .btn,
   .btn:link,
