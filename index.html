@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="This is a sample of Portofolio Website create by Mario Christofell"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Frontend Developer Portofolio</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="#">
+        <img class="logo" src="img/M-logos_black.png" alt="M Logo" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#home">Home</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#project">Project</a></li>
+          <li><a class="main-nav-link" href="#skill">Skill</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#cta">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav"
+          name="close-circle-outline"
+        ></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero" id="home">
+        <div class="hero">
+          <div class="hero-text">
+            <p class="hero-greet">Hi 👋, I am</p>
+            <h1 class="heading-primary">Mario Christofell</h1>
+            <p class="hero-role">&mdash; Frontend Developer</p>
+            <p class="hero-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
+              natus ex repellat tenetur eius, ratione recusandae nobis quibusdam
+              praesentium.
+            </p>
+
+            <div class="hero-social">
+              <a href="#"
+                ><ion-icon class="hero-icon" name="logo-linkedin"></ion-icon
+              ></a>
+              <a href="#"
+                ><ion-icon class="hero-icon" name="logo-github"></ion-icon
+              ></a>
+              <a href="#"
+                ><ion-icon class="hero-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </div>
+
+            <a href="#cta" class="btn btn--full">Get in touch &darr;</a>
+          </div>
+
+          <div class="hero-img">
+            <img
+              src="img/Illustration-1.png"
+              alt="Illustration of a man playing computer"
+              class="hero-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="section-about" id="about">
+        <div class="container--lg grid grid--2--cols grid--center-v">
+          <div class="about-img">
+            <img
+              src="img/Illustration-2.png"
+              alt="Illustration of a man collecting files"
+              class="about-img"
+            />
+          </div>
+          <div class="about-text">
+            <span class="subheading">About</span>
+            <h2 class="heading-secondary">About Me</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+              quasi corrupti harum quae ipsum molestias labore aliquid quia
+              quam, illo ut nisi perspiciatis doloremque placeat ipsam vero
+              voluptas corporis ad. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Voluptatibus, sapiente pariatur, doloremque
+              possimus.
+            </p>
+            <a href="#" class="btn btn--full">Download CV</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECT SECTION -->
+      <section class="section-project" id="project">
+        <div class="container--lg">
+          <span class="subheading">Project</span>
+          <h2 class="heading-secondary">Recent Project</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+          </p>
+        </div>
+
+        <div class="container--md grid grid--2--cols">
+          <div class="project">
+            <img
+              src="img/project/alvaro-reyes-KxVlKiqQObU-unsplash.jpg"
+              class="project-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="project-content">
+              <p class="project-title">Project Title</p>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                alias recusandae.
+              </p>
+              <ul class="project-attributes">
+                <a href="#" class="project-link">
+                  <li class="project-attribute">
+                    <ion-icon
+                      class="project-icon"
+                      name="globe-outline"
+                    ></ion-icon>
+                    <span><p>Demo</p></span>
+                  </li>
+                </a>
+                <a href="#" class="project-link">
+                  <li class="project-attribute">
+                    <ion-icon
+                      class="project-icon"
+                      name="logo-github"
+                    ></ion-icon>
+                    <span><p>Code</p></span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              src="img/project/alvaro-reyes-zvmZiw3vdsQ-unsplash.jpg"
+              class="project-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="project-content">
+              <p class="project-title">Project Title</p>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                alias recusandae.
+              </p>
+              <ul class="project-attributes">
+                <a href="#" class="project-link">
+                  <li class="project-attribute">
+                    <ion-icon
+                      class="project-icon"
+                      name="globe-outline"
+                    ></ion-icon>
+                    <span><p>Demo</p></span>
+                  </li>
+                </a>
+                <a href="#" class="project-link">
+                  <li class="project-attribute">
+                    <ion-icon
+                      class="project-icon"
+                      name="logo-github"
+                    ></ion-icon>
+                    <span><p>Code</p></span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              src="img/project/kelly-sikkema-gcHFXsdcmJE-unsplash.jpg"
+              class="project-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="project-content">
+              <p class="project-title">Project Title</p>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                alias recusandae.
+              </p>
+              <ul class="project-attributes">
+                <a href="#" class="project-link">
+                  <li class="project-attribute">
+                    <ion-icon
+                      class="project-icon"
+                      name="globe-outline"
+                    ></ion-icon>
+                    <span><p>Demo</p></span>
+                  </li>
+                </a>
+                <a href="#" class="project-link">
+                  <li class="project-attribute">
+                    <ion-icon
+                      class="project-icon"
+                      name="logo-github"
+                    ></ion-icon>
+                    <span><p>Code</p></span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              src="img/project/ux-store-jJT2r2n7lYA-unsplash.jpg"
+              class="project-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="project-content">
+              <p class="project-title">Project Title</p>
+              <p class="project-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                alias recusandae.
+              </p>
+              <ul class="project-attributes">
+                <a href="#" class="project-link">
+                  <li class="project-attribute">
+                    <ion-icon
+                      class="project-icon"
+                      name="globe-outline"
+                    ></ion-icon>
+                    <span><p>Demo</p></span>
+                  </li>
+                </a>
+                <a href="#" class="project-link">
+                  <li class="project-attribute">
+                    <ion-icon
+                      class="project-icon"
+                      name="logo-github"
+                    ></ion-icon>
+                    <span><p>Code</p></span>
+                  </li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILL SECTION -->
+      <section class="section-skill" id="skill">
+        <div class="container--lg center-text">
+          <span class="subheading">Skill</span>
+          <h2 class="heading-secondary">My Skill</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit
+          </p>
+        </div>
+
+        <dir class="container--md grid grid--4--cols">
+          <div class="skill">
+            <ion-icon class="skill-icon" name="logo-html5"></ion-icon>
+            <p class="skill-title">HTML5</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consec adipisicing.
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon class="skill-icon" name="logo-css3"></ion-icon>
+            <p class="skill-title">CSS3</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consec adipisicing.
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon class="skill-icon" name="logo-javascript"></ion-icon>
+            <p class="skill-title">Javascript</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consec adipisicing.
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon class="skill-icon" name="logo-python"></ion-icon>
+            <p class="skill-title">Python</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consec adipisicing.
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon class="skill-icon" name="logo-angular"></ion-icon>
+            <p class="skill-title">Angular</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consec adipisicing.
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon class="skill-icon" name="logo-react"></ion-icon>
+            <p class="skill-title">React</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consec adipisicing.
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon class="skill-icon" name="logo-sass"></ion-icon>
+            <p class="skill-title">Sass</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consec adipisicing.
+            </p>
+          </div>
+
+          <div class="skill">
+            <ion-icon class="skill-icon" name="logo-figma"></ion-icon>
+            <p class="skill-title">Figma</p>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consec adipisicing.
+            </p>
+          </div>
+        </dir>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="section-contact" id="cta">
+        <div class="container--lg center-text">
+          <span class="subheading">Contact</span>
+          <h2 class="heading-secondary">Got a project in mind?</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing eligendi dolor.
+          </p>
+        </div>
+
+        <div class="container--lg">
+          <div class="cta">
+            <div class="cta-box">
+              <form class="cta-form" method="post" name="sign">
+                <input type="hidden" name="form-name" value="sign" />
+                <div>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="your@email.com"
+                    name="email"
+                    required
+                  />
+                </div>
+                <button class="btn btn--form">Let's connect!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container--lg center-text">
+        <h3 class="heading-tertiary">Mario Christofell</h3>
+        <div class="container--sm center-text">
+          <p class="footer-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sint,
+            delectus exercitationem omnis nulla perferendis.
+          </p>
+
+          <ul class="footer-social">
+            <li>
+              <a href="#"
+                ><ion-icon class="footer-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="footer-icon" name="logo-github"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><ion-icon class="footer-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by 😉 Mario
+            Christofell
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
