@@ -8,6 +8,7 @@ An example of portofolio landing page website with four section build from scrat
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+- [Author](#author)
 
 ## Overview
 
@@ -29,3 +30,7 @@ An example of portofolio landing page website with four section build from scrat
 - Flexbox
 - CSS Grid
 - Little bit Vanilla Javascipt (Mobile Nav Menu)
+
+## Author
+
+- Twitter - [@mario_fed](https://twitter.com/mario_fed)
